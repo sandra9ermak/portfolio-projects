@@ -1,0 +1,40 @@
+.projects{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.projects__item{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+
+    &:not(:last-child){
+        margin-bottom: 80px;
+    }
+}
+
+.projects__item__site{
+    margin-bottom: 15px;
+}
+
+.projects__item__link{
+    color: rgba(255, 255, 255, 0.866);
+}
+
+.projects__name__span{
+    color: rgba(255, 255, 255, 0.866);
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    margin-right: 10px;
+}
+
+.project__item__description{
+    width: 600px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 17px;
+    color: rgb(226, 14, 14);
+}
