@@ -1,61 +1,7 @@
-// .aboutMe{
-//     margin-top: 40px;
-//     margin-bottom: 40px;
-// }
-
-// .aboutMe__container{
-//     display: flex;
-// }
-
-// .aboutMe__photo{
-//     margin-right: 100px;
-//     height: 300px;
-//     width: 250px;
-// }
-
-// .contacts__header{
-//     color: rgba(255, 255, 255, 0.866);
-//     margin-top: 20px;
-//     font-size: 20px;
-//     margin-bottom: 10px;
-//     letter-spacing: 0.05em;
-// }
-
-// .contacts__list__item{
-//     text-decoration: none;
-//     list-style: none;
-//     color: rgba(255, 255, 255, 0.866);
-//     letter-spacing: 0.05em;
-
-//     &:not(:last-child){
-//         margin-bottom: 10px;
-//     }
-// }
-
-// .contacts__link{
-//     color: rgb(12, 26, 225);
-// }
-
-// .aboutMe__description{
-//     color: rgba(255, 255, 255, 0.866);
-//     letter-spacing: 0.05em;
-//     font-size: 20px;
-//     width: 900px;
-//     margin-bottom: 15px;
-// }
-
-// .aboutMe__list__item{
-//     text-decoration: none;
-//     list-style: none;
-//     color: rgb(226, 14, 14);
-//     letter-spacing: 0.05em;
-//     font-size: 17px;
-// }
-
 .aboutMe{
     padding-top: 100px;
     background-color: #fff;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 
 .aboutMe__container{
@@ -71,6 +17,7 @@
 .aboutMe__mainTitle{
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Alfa Slab One', cursive;
 }
 
 .aboutMe__img{
