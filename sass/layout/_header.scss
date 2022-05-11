@@ -2,18 +2,20 @@
     // display: flex;
     // align-items: center;
     // background-color: rgba(99, 64, 168, 0.742);
-    border-bottom: 1px solid rgb(237, 208, 101);
+    border-bottom: 1px solid #d41443;
     width: 100%;
     // position: absolute;
 }
 
 .header-container {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     margin: 0 auto;
     // height: 60px;
     display: flex;
     width: 1300px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav__list{
@@ -30,17 +32,31 @@
 }
 
 .nav__item__link{
-    color: rgba(255, 255, 255, 0.866);
+    color: rgba(0, 0, 0, 0.866);
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 600;
 
     &:hover,
     &:focus {
-        color: rgb(237, 208, 101);
+        color: #d41443;
     }
 }
 
 .current-link{
-    color: rgb(237, 208, 101);
+    color: #d41443;
+}
+
+.header__contacts{
+    display: flex;
+    list-style: none;
+}
+
+.header__contacts--item{
+    margin-right: 30px;
+}
+
+.header__contacts--link{
+    color: #d41443;
+    letter-spacing: 0.1em;
 }

@@ -4,17 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projects</title>
+    <title>about</title>
 
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
       rel="stylesheet"
     /> -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
@@ -26,315 +23,205 @@
           <ul class="nav__list">
             <li class="nav__item">
               <a href="index.html" class="nav__item__link"
-                ><span class="current-link">Projects</span></a
+                ><span class="current-link">about</span></a
               >
             </li>
             <li class="nav__item">
-              <a href="aboutMe.html" class="nav__item__link">About me</a>
+              <a href="projects.html" class="nav__item__link">projects</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacts.html" class="nav__item__link">contacts</a>
             </li>
           </ul>
         </nav>
+        <ul class="header__contacts">
+          <li class="header__contacts--item">
+            <a href="tel:++380970102787" class="link header__contacts--link"
+              >+38 097 010 2787</a
+            >
+          </li>
+          <li class="header__contacts--item">
+            <a
+              href="mailto:sandra1ermak@gmail.com"
+              class="link header__contacts--link"
+              >sandra1ermak@gmail.com</a
+            >
+          </li>
+        </ul>
       </div>
     </header>
 
     <!--  MAIN SECTION  -->
     <main>
+      <section class="aboutMe">
+        <div class="container aboutMe__container">
+          <div class="aboutMe__description--container">
+            <p class="aboutMe__title">Hi, everyone!</p>
+            <h1 class="aboutMe__mainTitle">I'm Full-Stack Developer</h1>
+            <p class="aboutMe__description--text">
+              I use the latest technology to write websites for the convinience
+              of the user and search engines. I finished a course Full-Stack
+              Developer in Kyiv, Ukraine and already have great projects.
+            </p>
+            <ul class="aboutMe__list">
+              <li class="aboutMe__list--item">
+                <a
+                  href="https://github.com/sandra9ermak?tab=repositories"
+                  target="_blank"
+                  class="aboutMe__list--link"
+                >
+                  <img
+                    src="./img/github2.png"
+                    alt="github"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </li>
+              <li class="aboutMe__list--item">
+                <a
+                  href=" https://www.linkedin.com/in/oleksandra-yermak-b5b738228/"
+                  target="_blank"
+                  class="aboutMe__list--link"
+                >
+                  <img
+                    src="./img/linkedin2.png"
+                    alt="linkedin"
+                    width="20"
+                    height="20"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <img
+            src="./img/girl-with-pc2.jpg"
+            alt="girl-with-pc"
+            class="aboutMe__img"
+          />
+        </div>
+      </section>
+
       <section class="projects">
         <div class="container">
+          <h2 class="projects__title">My projects</h2>
           <ul class="projects__list">
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandra9ermak.github.io/goit-markup-hw-08/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandra9ermak.github.io/goit-markup-hw-08/</a
-                  >
+            <li class="projects__list--item">
+              <a
+                href="https://sandra9ermak.github.io/goit-markup-hw-08/"
+                target="_blank"
+                class="galery-shadow"
+              >
+                <div class="port-hover-window">
+                  <img
+                    src="./img/webstudio.jpg"
+                    alt="webstudio"
+                    class="projects__list--img"
+                  />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">WebStudio</h3>
+                    <p class="projects__list--description">
+                      On this website you can find more information about
+                      Ukrainian company WebStudio. What they create, with
+                      companies they cooperate with and their contacts.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-markup-hw-08"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-markup-hw-08</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                On this WebSite you can find more information about Ukrainian
-                company WebStudio. What they create, with companies they
-                cooperate with and their contacts.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://adriantmocaliuc.github.io/experimentators/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://adriantmocaliuc.github.io/experimentators/</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://adriantmocaliuc.github.io/experimentators/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/icecream.png"
+                    alt="icecream" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Ice cream</h3>
+                    <p class="projects__list--description">
+                      This project was created so that people can find out what
+                      products ICE CREAM has and buy ice cream in one click without
+                      leaving home.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/experimentators"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/experimentators</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                This project was created so that people can find out what
-                products ICE CREAM has and buy ice cream in one click without
-                leaving home.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://iuriibilonog.github.io/js-project/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://iuriibilonog.github.io/js-project/</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://iuriibilonog.github.io/js-project/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/booster.jpg"
+                    alt="booster" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Event Booster</h3>
+                    <p class="projects__list--description">
+                      The idea of this project is that people who looking for an event
+                      or want to go on concert of their favorite singer or basketball
+                      game can find in this webWebSite and find out when and where
+                      this event will be.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/js-project"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/js-project</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                The idea of this project is that people who looking for an event
-                or want to go on concert of their favorite singer or basketball
-                game can find in this webWebSite and find out when and where this
-                event will be.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://corund1976-goit-react-project.netlify.app/auth"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://corund1976-goit-react-project.netlify.app/auth</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://sandra9ermak-phonebook-registration-and-login.netlify.app/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/phonebook.png" alt="phonebook" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Phonebook</h3>
+                    <p class="projects__list--description">
+                      In Phonebook everyone can register or login, then add your
+                      contacts, delete and find someone he is looking for.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-project"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-project</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                The purpose of this project is to help people keep track of
-                their money balance. Here they can see how many money they spend
-                on something and how many they earn.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://questify-project.netlify.app/auth"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://questify-project.netlify.app/auth</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://sandraermak-goit-react-hw-04-movies.netlify.app/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/movies.png" alt="movies" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Movies</h3>
+                    <p class="projects__list--description">
+                      Here you can see what films are currently popular, read
+                      information about the cast, about this movie and review. Also
+                      you can find other movies in search engine.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/QuestifyFront"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/QuestifyFront</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                The main idea of this project is notice what you need to do
-                during the day, week or month. In Questify you can choose a
-                challenge or just a quest and keep track of what you have
-                completed and which challenges you need to complete.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandra9ermak-phonebook-registration-and-login.netlify.app/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandra9ermak-phonebook-registration-and-login.netlify.app/</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://sandra9ermak.github.io/goit-react-hw-04-hooks-images/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/image-finder.png" alt="image-finder" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Image Finder</h3>
+                    <p class="projects__list--description">
+                      Image finder has many photos, when you type in search engine
+                      everything you are looking for will be shown.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-hw-08-phonebook"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-hw-08-phonebook</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                In Phonebook everyone can register or login, then add your
-                contacts, delete and find someone he is looking for.
-              </p>
+              </a>
             </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandraermak-goit-react-hw-04-movies.netlify.app/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandraermak-goit-react-hw-04-movies.netlify.app/</a
-                  >
+            <li class="projects__list--item">
+              <a href="https://sandra9ermak.github.io/goit-react-hw-04-hooks-feedback/" target="_blank" class="galery-shadow">
+                <div class="port-hover-window">
+                  <img src="./img/feedback.png" alt="feedback" class="projects__list--img" />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Feedback</h3>
+                    <p class="projects__list--description">
+                      This project is reviews widget, where everybody can leave a
+                      feedback and company will see their rating.
+                    </p>
+                  </div>
                 </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-hw-04-movies"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-hw-04-movies</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                Here you can see what films are currently popular, read
-                information about the cast, about this movie and review. Also
-                you can find other movies in search engine.
-              </p>
-            </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandra9ermak.github.io/goit-react-hw-04-hooks-images/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandra9ermak.github.io/goit-react-hw-04-hooks-images/</a
-                  >
-                </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-hw-04-hooks-images"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-hw-04-hooks-images</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                Image finder has many photos, when you type in search engine
-                everything you are looking for will be shown.
-              </p>
-            </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandra9ermak.github.io/goit-react-hw-02feedback/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandra9ermak.github.io/goit-react-hw-02feedback/</a
-                  >
-                </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-hw-02feedback"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-hw-02feedback</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                This project is reviews widget, where everybody can leave a
-                feedback and company will see their rating.
-              </p>
-            </li>
-            <li class="projects__item">
-              <div>
-                <div class="projects__item__WebSite">
-                  <span class="projects__name__span">WebSite:</span>
-                  <a
-                    href="https://sandra9ermak.github.io/goit-react-hw-01-components/"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://sandra9ermak.github.io/goit-react-hw-01-components/</a
-                  >
-                </div>
-                <div>
-                  <span class="projects__name__span">GitHub:</span>
-                  <a
-                    href="https://github.com/sandra9ermak/goit-react-hw-01-components"
-                    class="projects__item__link"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >https://github.com/sandra9ermak/goit-react-hw-01-components</a
-                  >
-                </div>
-              </div>
-              <p class="project__item__description">
-                In this WebSite I use react, depending on how backend changes, this
-                is how the data will be displayed on this WebSite.
-              </p>
+              </a>
             </li>
           </ul>
         </div>
       </section>
     </main>
-
-    <footer></footer>
   </body>
 </html>
