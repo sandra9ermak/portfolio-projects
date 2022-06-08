@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>about</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap"
+      rel="stylesheet"
+    />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <link rel="stylesheet" href="css/main.min.css" />
   </head>
@@ -23,9 +29,7 @@
         <nav class="header__nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a href="#about" class="nav__item__link"
-                ><span class="current-link">about</span></a
-              >
+              <a href="#about" class="nav__item__link">about</a>
             </li>
             <li class="nav__item">
               <a href="#projects" class="nav__item__link">projects</a>
@@ -34,7 +38,7 @@
               <a href="#skills" class="nav__item__link">skills</a>
             </li>
             <li class="nav__item">
-              <a href="contacts.html" class="nav__item__link">contacts</a>
+              <a href="#contacts" class="nav__item__link">contacts</a>
             </li>
           </ul>
         </nav>
@@ -116,7 +120,7 @@
 
       <section class="projects" id="projects">
         <div class="container">
-          <h2 class="projects__title">My projects</h2>
+          <h2 class="title">My projects</h2>
           <ul class="projects__list">
             <li class="projects__list--item">
               <a
@@ -134,7 +138,7 @@
                     <h3 class="projects__list--title">WebStudio</h3>
                     <p class="projects__list--description">
                       On this website you can find more information about
-                      Ukrainian company WebStudio. What they create, with
+                      company WebStudio. What they create, with
                       companies they cooperate with and their contacts.
                     </p>
                     <object>
@@ -197,7 +201,7 @@
                     <p class="projects__list--description">
                       The idea of this project is that people who looking for an
                       event or want to go on concert of their favorite singer or
-                      basketball game can find in this webWebSite and find out
+                      basketball game can find in this website and find out
                       when and where this event will be.
                     </p>
                     <object>
@@ -333,15 +337,46 @@
                 </div>
               </a>
             </li>
+            <li class="projects__list--item">
+              <a
+                href="https://sandra9ermak.github.io/horoscope-project/"
+                target="_blank"
+                class="galery-shadow"
+              >
+                <div class="port-hover-window">
+                  <img
+                    src="./img/horoscope.png"
+                    alt="horoscope"
+                    class="projects__list--img"
+                  />
+                  <div class="projects__list--imgDescription">
+                    <h3 class="projects__list--title">Horoscope</h3>
+                    <p class="projects__list--description">
+                      Horoscope will ask you a few questions, then you will
+                      enter your date of birth and find out what your zodiac
+                      sign is.
+                    </p>
+                    <object>
+                      <a
+                        href="https://github.com/sandra9ermak/horoscope-project"
+                        target="_blank"
+                        class="github-link"
+                        >GitHub</a
+                      >
+                    </object>
+                  </div>
+                </div>
+              </a>
+            </li>
           </ul>
         </div>
       </section>
 
       <section class="skills" id="skills">
         <div class="container">
-          <h2 class="skills__title">My skills</h2>
-          <ul class="list skils__list">
-            <li class="skils__list--item">
+          <h2 class="title">My skills</h2>
+          <ul class="list skills__list">
+            <li class="skills__list--item">
               HTML
               <img
                 src="./img/icons/html.png"
@@ -351,7 +386,7 @@
                 class="skills__list--img"
               />
             </li>
-            <li class="skils__list--item">
+            <li class="skills__list--item">
               CSS
               <img
                 src="./img/icons/css-3.png"
@@ -361,17 +396,7 @@
                 class="skills__list--img"
               />
             </li>
-            <li class="skils__list--item">
-              SASS
-              <img
-                src="./img/icons/sass.png"
-                alt="sass-icon"
-                width="70"
-                height="70"
-                class="skills__list--img"
-              />
-            </li>
-            <li class="skils__list--item">
+            <li class="skills__list--item">
               JavaScript
               <img
                 src="./img/icons/js.png"
@@ -381,7 +406,7 @@
                 class="skills__list--img"
               />
             </li>
-            <li class="skils__list--item">
+            <li class="skills__list--item">
               React
               <img
                 src="./img/icons/react.png"
@@ -391,10 +416,53 @@
                 class="skills__list--img"
               />
             </li>
+            <li class="skills__list--item">
+              Node.js
+              <img
+                src="./img/icons/node-js.png"
+                alt="sass-icon"
+                width="70"
+                height="70"
+                class="skills__list--img"
+              />
+            </li>
+          </ul>
+          <h3 class="skills__secondTitle">What i use</h3>
+          <ul class="list skills__list">
+            <li class="skills__list--item">
+              GitHub
+              <img
+                src="./img/icons/github-2.png"
+                alt="react-icon"
+                width="70"
+                height="70"
+                class="skills__list--img"
+              />
+            </li>
+            <li class="skills__list--item">
+              Figma
+              <img
+                src="./img/icons/figma.png"
+                alt="react-icon"
+                width="70"
+                height="70"
+                class="skills__list--img"
+              />
+            </li>
+            <li class="skills__list--item">
+              SASS
+              <img
+                src="./img/icons/sass.png"
+                alt="sass-icon"
+                width="70"
+                height="70"
+                class="skills__list--img"
+              />
+            </li>
           </ul>
           <div class="skills__websites--container">
             <div>
-              <h3 class="skills__secondTitle">
+              <h3 class="skills__thirdTitle">
                 Which types of websites I make?
               </h3>
               <ul class="skills__websites--lists">
@@ -404,11 +472,13 @@
               </ul>
             </div>
             <div>
-              <h3 class="skills__secondTitle">
+              <h3 class="skills__thirdTitle">
                 What website I can create for you?
               </h3>
               <ul class="skills__websites--lists">
-                <li class="skills__websites--item">Adaptive (for all types of devices)</li>
+                <li class="skills__websites--item">
+                  Adaptive (for all types of devices)
+                </li>
                 <li class="skills__websites--item">Modern design and layout</li>
                 <li class="skills__websites--item">User-friendly</li>
                 <li class="skills__websites--item">First in search engines</li>
@@ -417,6 +487,91 @@
           </div>
         </div>
       </section>
+
+      <section class="contacts" id="contacts">
+        <div class="container">
+          <h2 class="title">My contacts</h2>
+          <div class="contacts__container">
+            <img src="./img/phone-call.png" alt="phone-call" class="phone" />
+            <ul class="list">
+              <li class="contacts__list--item">
+                E-mail:
+                <a
+                  href="mailto:sandra1ermak@gmail.com"
+                  class="link contacts__list--link"
+                  >sandra1ermak@gmail.com</a
+                >
+              </li>
+              <li class="contacts__list--item">
+                GitHub:
+                <a
+                  href="https://github.com/sandra9ermak?tab=repositories"
+                  class="link contacts__list--link"
+                  >sandraermak</a
+                >
+              </li>
+              <li class="contacts__list--item">
+                LinkedIn:
+                <a
+                  href="https://www.linkedin.com/in/oleksandra-yermak-b5b738228/"
+                  class="link contacts__list--link"
+                  >Oleksandra Yermak</a
+                >
+              </li>
+              <li class="contacts__list--item">
+                Telegram:
+                <a
+                  href="https://t.me/sandraermak"
+                  class="link contacts__list--link"
+                  >sandraermak</a
+                >
+              </li>
+            </ul>
+            <img
+              src="./img/email.png"
+              alt="email"
+              width="150"
+              height="150"
+              class="mail"
+            />
+          </div>
+
+          <div class="contact__form--container">
+            <h3 class="contact__form--title">Contact me</h3>
+            <form class="contact__form">
+              <label class="contacts__form--label">
+                <input
+                  type="text"
+                  name="name"
+                  class="contact_form--input"
+                  placeholder="Name"
+                  required
+                />
+              </label>
+              <label class="contacts__form--label">
+                <input
+                  type="email"
+                  name="email"
+                  class="contact_form--input"
+                  placeholder="Email"
+                  required
+                />
+              </label>
+              <label class="contacts__form--label">
+                <textarea
+                  name="text"
+                  class="contact_form--input text"
+                  placeholder="Ask me something..."
+                  required
+                ></textarea>
+              </label>
+              <button>SEND FORM</button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

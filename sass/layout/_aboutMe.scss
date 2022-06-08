@@ -49,4 +49,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 1s;
+
+    &:hover,
+    &:focus{
+        background-color: #d80036;
+    }
 }
